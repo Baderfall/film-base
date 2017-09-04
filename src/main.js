@@ -1,3 +1,5 @@
+import 'normalize.css';
+import './globals/global.css';
 import Vue from 'vue';
 import routes from './routes';
 

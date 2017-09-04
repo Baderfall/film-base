@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: "Streamster";
+  src: url("./fonts/Streamster.ttf");
+}
+
+@font-face {
+  font-family: "Lazer84";
+  src: url("./fonts/Lazer84.ttf");
+}
+
+body, html {
+  height: 100%;
+  background: url(./images/background.png) #131414;
+  font-family: 'Lazer84', sans-serif;
+  font-size: 10px;
+  color: #ffffff;
+}
