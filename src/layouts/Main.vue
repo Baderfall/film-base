@@ -20,6 +20,6 @@
 <style>
   .main-content-outer {
     margin-left: 28rem;
-    padding: 4rem;
+    padding: 2rem 4rem;
   }
 </style>

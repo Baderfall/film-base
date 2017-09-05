@@ -1,15 +1,20 @@
 <template>
   <main-layout>
-    <h1>This is gallery</h1>
+    <search-bar></search-bar>
+    <film-cards-list></film-cards-list>
   </main-layout>
 </template>
 
 <script>
   import MainLayout from '../layouts/Main.vue';
+  import SearchBar from '../components/gallery/SearchBar.vue';
+  import FilmCardsList from '../components/gallery/FilmCardsList.vue';
 
   export default {
     components: {
-      MainLayout
+      MainLayout,
+      SearchBar,
+      FilmCardsList
     }
   };
 </script>
