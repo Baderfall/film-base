@@ -16,5 +16,6 @@ npm run build
 ## Checklist
 
 * what is cross-env module?
+* do smth with images in gallery
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
