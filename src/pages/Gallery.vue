@@ -1,6 +1,5 @@
 <template>
   <main-layout>
-    <search-bar></search-bar>
     <film-cards-list></film-cards-list>
   </main-layout>
 </template>

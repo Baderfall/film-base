@@ -13,10 +13,26 @@ a {
   src: url("./fonts/Lazer84.ttf");
 }
 
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('./fonts/Fontawesome.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body, html {
   height: 100%;
   background: url(./images/background.png) #131414;
   font-family: 'Lazer84', sans-serif;
   font-size: 10px;
   color: #ffffff;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

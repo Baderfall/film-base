@@ -1,6 +1,6 @@
 <template>
   <div class="film-card">
-    <h3>{{title}}</h3>
+    <h3 class="film-card__title">{{title}}</h3>
     <img class="film-card__img" :src="imgUrl" :alt="title">
   </div>
 </template>
@@ -16,18 +16,16 @@
     display: inline-block;
     border: 2px solid #ffffff;
     cursor: pointer;
-    margin-right: 4rem;
-    margin-bottom: 4rem;
-    width: 240px;
-    height: 320px;
+    width: 24rem;
+    height: 32rem;
     overflow: hidden;
+  }
+
+  .film-card__title {
     text-align: center;
   }
 
   .film-card__img {
-    object-fit: none; /* Do not scale the image */
-    object-position: center; /* Center the image within the element */
-    width: 100%;
     height: 100%;
   }
 </style>
