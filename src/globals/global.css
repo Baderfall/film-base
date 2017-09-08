@@ -23,3 +23,7 @@ html {
   font-size: 10px;
   color: #ffffff;
 }
+
+input {
+  font-family: 'Lazer84', sans-serif;
+}

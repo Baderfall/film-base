@@ -22,63 +22,53 @@
           {
             "title": "The Shawshank Redemption",
             "rank": "1",
-            "id": "tt0111161",
-            "imgUrl": "https://placeimg.com/240/320/any"
+            "id": "tt0111161"
           },
           {
             "title": "The Godfather",
             "rank": "2",
-            "id": "tt0068646",
-            "imgUrl": "https://placeimg.com/240/320/any"
+            "id": "tt0068646"
           },
           {
             "title": "The Godfather: Part II",
             "rank": "3",
-            "id": "tt0071562",
-            "imgUrl": "https://placeimg.com/240/320/any"
+            "id": "tt0071562"
           },
           {
             "title": "Pulp Fiction",
             "rank": "4",
-            "id": "tt0110912",
-            "imgUrl": "https://placeimg.com/240/320/any"
+            "id": "tt0110912"
           },
           {
             "title": "The Good, the Bad and the Ugly",
             "rank": "5",
-            "id": "tt0060196",
-            "imgUrl": "https://placeimg.com/240/320/any"
+            "id": "tt0060196"
           },
           {
-            "title": "The Shawshank Redemption",
-            "rank": "1",
-            "id": "tt0111161",
-            "imgUrl": "https://placeimg.com/240/320/any"
+            "title": "The Dark Knight",
+            "rank": "6",
+            "id": "tt0468569"
           },
           {
-            "title": "The Godfather",
-            "rank": "2",
-            "id": "tt0068646",
-            "imgUrl": "https://placeimg.com/240/320/any"
+            "title": "12 Angry Men",
+            "rank": "7",
+            "id": "tt0050083"
           },
           {
-            "title": "The Godfather: Part II",
-            "rank": "3",
-            "id": "tt0071562",
-            "imgUrl": "https://placeimg.com/240/320/any"
+            "title": "Schindler's List",
+            "rank": "8",
+            "id": "tt0108052"
           },
           {
-            "title": "Pulp Fiction",
-            "rank": "4",
-            "id": "tt0110912",
-            "imgUrl": "https://placeimg.com/240/320/any"
+            "title": "The Lord of the Rings: The Return of the King",
+            "rank": "9",
+            "id": "tt0167260"
           },
           {
-            "title": "The Good, the Bad and the Ugly",
-            "rank": "5",
-            "id": "tt0060196",
-            "imgUrl": "https://placeimg.com/240/320/any"
-          }
+            "title": "Fight Club",
+            "rank": "10",
+            "id": "tt0137523"
+          },
         ]
       };
     },
