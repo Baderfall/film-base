@@ -11,20 +11,20 @@
   };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
   .film-card {
     border: 2px solid #ffffff;
     cursor: pointer;
     width: 24rem;
     height: 32rem;
     overflow: hidden;
-  }
 
-  .film-card__title {
-    text-align: center;
-  }
+    &__title {
+      text-align: center;
+    }
 
-  .film-card__img {
-    height: 100%;
+    &__img {
+      height: 100%;
+    }
   }
 </style>

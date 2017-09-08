@@ -13,33 +13,33 @@
   export default {};
 </script>
 
-<style scoped>
+<style scoped lang="scss">
   .sort-bar {
     border: 2px solid #ffffff;
     width: 24rem;
-  }
 
-  .sort-bar__item {
-    height: 8rem;
-    background: rgba(72, 72, 72, 0.53);
-    cursor: pointer;
-  }
+    .sort-bar__item {
+      height: 8rem;
+      background: rgba(72, 72, 72, 0.53);
+      cursor: pointer;
 
-  .sort-bar__item:hover {
-    background: rgba(8, 8, 8, 0.53);
-  }
+      &:hover {
+        background: rgba(8, 8, 8, 0.53);
+      }
+    }
 
-  .sort-bar__text {
-    line-height: 8rem;
-    font-size: 2rem;
-    margin: 0;
-    text-align: right;
-    padding: 0 3rem;
-  }
+    &__text {
+      line-height: 8rem;
+      font-size: 2rem;
+      margin: 0;
+      text-align: right;
+      padding: 0 3rem;
 
-  .sort-bar__text i {
-    vertical-align: middle;
-    font-size: 5rem;
-    margin-left: 1.5rem;
+      i {
+        vertical-align: middle;
+        font-size: 5rem;
+        margin-left: 1.5rem;
+      }
+    }
   }
 </style>

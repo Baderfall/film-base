@@ -6,16 +6,12 @@
 
 <script>
   import MainLayout from '../layouts/Main.vue';
-  import SearchBar from '../components/gallery/SearchBar.vue';
   import FilmCardsList from '../components/gallery/FilmCardsList.vue';
-  import ListNavigation from '../components/gallery/ListNavigation.vue';
 
   export default {
     components: {
       MainLayout,
-      SearchBar,
-      FilmCardsList,
-      ListNavigation
+      FilmCardsList
     }
   };
 </script>

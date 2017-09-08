@@ -16,9 +16,3 @@
     }
   };
 </script>
-
-<style scoped>
-  .list-navigation {
-    float: left;
-  }
-</style>

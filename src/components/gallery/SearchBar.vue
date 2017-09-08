@@ -9,19 +9,21 @@
   export default {};
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+  $border-thick: 2px;
+  
   .search-bar {
-    width: 24rem;
-    height: 158px;
+    width: 240px;
+    height: 320px / 2 - $border-thick;
     background: rgba(72, 72, 72, 0.53);
-    border: 2px solid #ffffff;
+    border: $border-thick solid #ffffff;
     border-bottom: none;
     text-align: center;
     cursor: pointer;
-  }
 
-  .search-bar:hover {
-    background: rgba(8, 8, 8, 0.53);
+    &:hover {
+      background: rgba(8, 8, 8, 0.53);
+    }
   }
 
   .search-bar__icon {

@@ -89,15 +89,18 @@
   };
 </script>
 
-<style scoped>
+<style lang="scss">
+  $card-height: 320px;
+  $card-width: 240px;
+
   .film-cards-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
 
-  .film-cards-list > * {
-    margin-bottom: 4rem;
-    margin-right: 3rem;
+    > * {
+      margin-bottom: 4rem;
+      margin-right: 3rem;
+    }
   }
 </style>
