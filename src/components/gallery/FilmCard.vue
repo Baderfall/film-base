@@ -13,7 +13,6 @@
 
 <style scoped>
   .film-card {
-    display: inline-block;
     border: 2px solid #ffffff;
     cursor: pointer;
     width: 24rem;
