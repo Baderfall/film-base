@@ -17,16 +17,18 @@ npm run build
 ### Front-end side:
 1. Sorting & searching in Vue.js
 2. Switch to React + Redux
-3. Gallery without images (films in json file)
-4. Host on github pages
-5. Log in profile (users in json file)
-6. Adding films to personal list
-7. *Move json to dev-server
+3. Gallery without images (10 films in json file)
+4. Create json with 100 films
+5. `13.09`Host on github pages
+6. Log in profile (users in json file)
+7. `18.09`Adding films to personal list
+8. *Move json to dev-server
 
 ### Back-end side:
-8. Create a node + mongo server
-9. Db with films
-10. Db with users
+9. Create a node + mongo server
+10. Db with films
+11. Db with users
+12. Connect to front-side
 
 ### Future tasks:
 * add covers to films
