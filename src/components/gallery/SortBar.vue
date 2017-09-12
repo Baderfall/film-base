@@ -1,44 +1,56 @@
 <template>
   <div class="sort-bar">
-    <div class="sort-bar__item">
-      <p class="sort-bar__text">Top rated<i class="fa fa-caret-down" aria-hidden="true"></i></p>
-    </div>
-    <div class="sort-bar__item">
-      <p class="sort-bar__text">Alphabetic<i class="fa fa-caret-down" aria-hidden="true"></i></p>
-    </div>
+    <button value="rank" v-on:click="updateValue($event.target.value)" class="sort-bar__button">
+      Top rated<i class="fa fa-caret-down" aria-hidden="true"></i>
+    </button>
+    <button value="title" v-on:click="updateValue($event.target.value)" class="sort-bar__button">
+      Alphabetic<i class="fa fa-caret-down" aria-hidden="true"></i>
+    </button>
   </div>
 </template>
 
 <script>
-  export default {};
+  export default {
+    props: ['sortBy'],
+    methods: {
+      updateValue: function(value) {
+        var order = this.sortBy.order;
+        if (this.sortBy.field === value) {
+          if (order === 'asc') {
+            order = 'desc';
+          } else if (order === 'desc') {
+            order = 'asc';
+          }
+        }
+        this.$emit( 'update:sortBy', {field: value, order: order} );
+      }
+    }
+  };
 </script>
 
 <style scoped lang="scss">
   .sort-bar {
-    border: 2px solid #ffffff;
-    width: 24rem;
+    border-top: 2px solid #ffffff;
+    width: 24.4rem;
 
-    .sort-bar__item {
+    &__button {
       height: 8rem;
       background: rgba(72, 72, 72, 0.53);
       cursor: pointer;
+      display: block;
+      width: 100%;
+      border: none;
+      font-family: inherit;
+      color: #ffffff;
+      font-size: 2.5rem;
 
       &:hover {
         background: rgba(8, 8, 8, 0.53);
       }
-    }
-
-    &__text {
-      line-height: 8rem;
-      font-size: 2rem;
-      margin: 0;
-      text-align: right;
-      padding: 0 3rem;
 
       i {
-        vertical-align: middle;
-        font-size: 5rem;
-        margin-left: 1.5rem;
+        font-size: 3rem;
+        margin-left: 1rem;
       }
     }
   }

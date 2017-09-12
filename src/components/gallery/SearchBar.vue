@@ -1,32 +1,38 @@
 <template>
   <div class="search-bar">
     <!-- <div class="search-bar__button"><i class="fa fa-search search-bar__icon" aria-hidden="true"></i></div> -->
-    <input type="text" class="search-bar__input">
+    <input
+      v-bind:value="searchQuery"
+      v-on:input="updateValue($event.target.value)"
+      type="text"
+      class="search-bar__input"
+    >
   </div>
 </template>
 
 <script>
-  export default {};
+  export default {
+    props: ['searchQuery'],
+    methods: {
+      updateValue: function(value) {
+        this.$emit('input', value);
+      }
+    }
+  };
 </script>
 
 <style scoped lang="scss">
-  $border-thick: 2px;
   $nav-background: rgba(72, 72, 72, 0.53);
   $nav-background-hov: rgba(8, 8, 8, 0.53);
 
   .search-bar {
-    width: 240px;
-    height: 320px / 2 - $border-thick;
+    width: 24.4rem;
+    height: 16rem;
     background: $nav-background;
-    border: $border-thick solid #ffffff;
     border-bottom: none;
     text-align: center;
     cursor: pointer;
     display: table;
-
-    &:hover {
-      /*background: $nav-background-hov;*/
-    }
 
     &__icon {
       font-size: 9rem;
@@ -42,6 +48,7 @@
       font-size: 4rem;
       display: table-cell;
       vertical-align: top;
+      border: none;
     }
   }
 </style>

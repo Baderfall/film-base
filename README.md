@@ -15,7 +15,7 @@ npm run build
 
 ## To Do:
 ### Front-end side:
-1. Sorting & searching in Vue.js
+~~1. Sorting & searching in Vue.js~~
 2. Switch to React + Redux
 3. Gallery without images (10 films in json file)
 4. Create json with 100 films

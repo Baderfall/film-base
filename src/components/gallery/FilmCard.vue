@@ -1,7 +1,7 @@
 <template>
   <div class="film-card">
     <h3 class="film-card__title">{{title}}</h3>
-    <img class="film-card__img" :src="imgUrl" :alt="title">
+    <!-- <img class="film-card__img" :src="imgUrl" :alt="title"> -->
   </div>
 </template>
 
